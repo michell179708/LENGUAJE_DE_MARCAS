@@ -1,0 +1,75 @@
+/*Seccion para importar archivos externos*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*Estilo general de la pagina template.html*/
+*{
+    font-family: 'Rubik', sans-serif; 
+}
+
+/*Estilo para la parte del header*/
+.container{
+    padding: 1em;
+    background-color: aliceblue;
+    max-width: 100;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.imagen-header{
+    width: 70px;
+}
+.h1-estilo{
+   justify-content: center;
+   font-size: 35px;
+   
+}
+
+/*Estilo para la parte de la navegacion*/
+nav ul,li,a{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+nav li{
+    padding: 1em;
+}
+   
+nav{
+    display: flex;
+    justify-content: center;
+  
+}
+
+/*Estilo para el body*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+   
+    
+}
+.container-dos{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: auto;
+    width: 860px;
+    height: 600px;
+    padding: 100px;
+    max-width: 100%;
+}
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: aliceblue;
+    padding: 1.3em;    
+    max-width: 100%;
+    font-size: 20px;
+}
+
