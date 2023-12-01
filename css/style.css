@@ -76,7 +76,7 @@ textarea{
     box-shadow: 3px 3px gray;
 }
 
-/*************estilo para la lectura.html*****************/
+/*************estilo para la lectura.html,lectura-anterio.html*****************/
  
 article{
     padding-bottom: 5em;
@@ -101,10 +101,4 @@ article button{
 }
 article.parafo-articulo{
     font-size: 3em;
-}
-
-/************ estilo para libro-anterio.html**************/
- 
-img.image{
-    width: 150px;
 }
