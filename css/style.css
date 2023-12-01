@@ -1,3 +1,41 @@
 /*Seccion para importar archivos externos */
 /*Importacion del estilo para el template*/
 @import url(../css/template.css);
+
+
+/****************  Estilo para la pagina index.html*****************************/
+
+main{
+    position: relative;
+    
+}
+
+.imagen-index{
+    position: absolute;
+    right: 27em;
+    width: 250px;
+}
+ 
+.parafo-index{
+ padding-right: em;
+ font-size: 1em;
+   
+}
+
+.subtitulo-index{
+    padding-top: 4em;
+}
+
+button a{
+    color: black;
+}
+button:hover{
+    background-color: #ffcb77;
+    
+}
+.button-formulario{
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+    padding: .8em;
+}

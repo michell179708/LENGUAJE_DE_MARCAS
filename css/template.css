@@ -5,7 +5,6 @@
 /*Estilo general de la pagina template.html*/
 *{
     font-family: 'Rubik', sans-serif; 
-    
 
 }
 
@@ -51,7 +50,7 @@ nav a{
     
 }
 
-a:hover{
+ nav a:hover{
     color: #bc8a5f;
     padding: 1em;
     transition: 1s ease;
@@ -90,6 +89,10 @@ aside a{
     width: 30px;
 }
 
+ aside a:hover{
+  color: #ffcb77;
+ }
+ 
 .titulo{
     font-size:18px;
     text-transform: uppercase;
@@ -97,6 +100,7 @@ aside a{
 }
 .subtitulo{
     font-size: 15px;
+    font-style: italic;
 }
 .parafo{
     font-size: 13px;
