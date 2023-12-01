@@ -5,6 +5,8 @@
 /*Estilo general de la pagina template.html*/
 *{
     font-family: 'Rubik', sans-serif; 
+    
+
 }
 
 /*Estilo para la parte del header*/
@@ -12,7 +14,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: #c0fdff;
-    width: 100%;
+    width: 200%;
     max-width: 100%;
 }
 
@@ -67,12 +69,37 @@ body{
 }
 .container-dos{
     display: flex;
+    justify-content: end;
     background-color: #f5f3f4;
     margin: auto;
     width: 900px;
     height: 600px;
     padding: 100px;
     max-width: 100%;
+}
+
+aside{
+    width: 250px;
+    padding: 1em;
+    
+
+}
+
+aside a{
+    color: #bc8a5f;
+    width: 30px;
+}
+
+.titulo{
+    font-size:18px;
+    text-transform: uppercase;
+    margin-bottom: 2.5em;
+}
+.subtitulo{
+    font-size: 15px;
+}
+.parafo{
+    font-size: 13px;
 }
 footer{
     text-align: center;
