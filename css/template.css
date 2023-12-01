@@ -78,15 +78,12 @@ body{
 }
 
 aside{
-    width: 250px;
-    padding: 1em;
-    
-
+    padding-left: 2em;
 }
 
 aside a{
     color: #bc8a5f;
-    width: 30px;
+    width: 20px;
 }
 
  aside a:hover{

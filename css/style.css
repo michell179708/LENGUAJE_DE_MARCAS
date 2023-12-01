@@ -7,7 +7,7 @@
 
 main{
     position: relative;
-    
+ 
 }
 
 .imagen-index{
@@ -76,6 +76,7 @@ textarea{
     box-shadow: 3px 3px gray;
 }
 
+
 /*************estilo para las paginas lectura.html,lectura-anterio.html*****************/
  
 article{
@@ -108,5 +109,5 @@ article.parafo-articulo{
 .imagen-reseña{
     float: left;
     margin-right:1em;
-    width: 150px;
+    width: 140px;
 }
