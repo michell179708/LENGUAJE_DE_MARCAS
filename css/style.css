@@ -75,3 +75,36 @@ textarea{
     background-color: #bc8a5f;
     box-shadow: 3px 3px gray;
 }
+
+/*************estilo para la lectura.html*****************/
+ 
+article{
+    padding-bottom: 5em;
+}
+
+
+h1.tituloa{
+    font-size: 25px;
+    padding-right: 12em;
+}
+
+ img.imagen{
+    float: left;
+    width: 150px;
+    margin-right: 1.5em;
+}
+article button{
+    padding: .4em;
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+}
+article.parafo-articulo{
+    font-size: 3em;
+}
+
+/************ estilo para libro-anterio.html**************/
+ 
+img.image{
+    width: 150px;
+}
