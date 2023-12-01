@@ -8,15 +8,10 @@
 }
 
 /*Estilo para la parte del header*/
-.container{
-    padding: 1em;
-    background-color: aliceblue;
-    max-width: 100;
-}
 header{
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #c0fdff;
 }
 
 .imagen-header{
@@ -29,21 +24,35 @@ header{
 }
 
 /*Estilo para la parte de la navegacion*/
-nav ul,li,a{
-    display: inline-block;
-    font-size: 20px;
-    
-}
-
-nav li{
-    padding: 1em;
-}
-   
 nav{
     display: flex;
     justify-content: center;
   
+  
 }
+nav ul,li,a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+nav li{
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav a{
+    color: black;
+    
+}
+
+a:hover{
+    color: #bc8a5f;
+    padding: 1em;
+    transition: 1s ease;
+}
+
 
 /*Estilo para el body*/
 body{
@@ -67,7 +76,7 @@ body{
 footer{
     text-align: center;
     margin-top: auto;
-    background-color: aliceblue;
+    background-color:#c0fdff;
     padding: 1.3em;    
     max-width: 100%;
     font-size: 20px;
