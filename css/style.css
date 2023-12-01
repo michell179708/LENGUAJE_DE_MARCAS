@@ -76,7 +76,7 @@ textarea{
     box-shadow: 3px 3px gray;
 }
 
-/*************estilo para la lectura.html,lectura-anterio.html*****************/
+/*************estilo para las paginas lectura.html,lectura-anterio.html*****************/
  
 article{
     padding-bottom: 5em;
@@ -101,4 +101,12 @@ article button{
 }
 article.parafo-articulo{
     font-size: 3em;
+}
+
+/****************estilo para la pagina reseña.html**********************************/
+
+.imagen-reseña{
+    float: left;
+    margin-right:1em;
+    width: 150px;
 }
