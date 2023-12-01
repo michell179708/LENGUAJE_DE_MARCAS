@@ -39,3 +39,39 @@ button:hover{
     box-shadow: 3px 3px gray;
     padding: .8em;
 }
+/****************  Estilo para la pagina formulario.html*****************************/
+
+ form{
+   padding-right: 6em;
+ }
+label,input{
+    display: block;
+    
+}
+label{
+    font-style: italic;
+    padding-top: .6em;
+    padding-bottom: .3em;
+    font-size:20px;
+}
+input{
+    
+    width: 25em;
+    padding: 5px;
+    max-width: 100%;
+    
+}
+
+textarea{
+   width: 24em;
+    padding: 1em;
+}
+.submit-button{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: .4em;
+    padding: .5em;
+    border: none;
+    background-color: #bc8a5f;
+    box-shadow: 3px 3px gray;
+}
