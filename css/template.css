@@ -12,6 +12,8 @@ header{
     display: flex;
     justify-content: center;
     background-color: #c0fdff;
+    width: 100%;
+    max-width: 100%;
 }
 
 .imagen-header{
@@ -65,10 +67,9 @@ body{
 }
 .container-dos{
     display: flex;
-    justify-content: center;
-    background-color: antiquewhite;
+    background-color: #f5f3f4;
     margin: auto;
-    width: 860px;
+    width: 900px;
     height: 600px;
     padding: 100px;
     max-width: 100%;
