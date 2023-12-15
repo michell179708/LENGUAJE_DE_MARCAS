@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Ejemplo de crear un documento xml, tarea de aprendizaje-->
+
+<!DOCTYPE  eventos>
+
+<eventos>
+    <evento id="1">
+       <excursion id="EX1">
+          <nombreexcursion>Se feliz excalando</nombreexcursion>
+          <dificultad>Medio</dificultad>
+          <Desnivel>560 x 20cm</Desnivel>
+          <Distancia> 4 metros de largo</Distancia>
+          <Tiempo>20 minutos</Tiempo>
+          <DiaExcursion>20 de Diciembre del 2023</DiaExcursion>
+          <LugarSalida>Algorta</LugarSalida>
+          <HoraSalida>10 am</HoraSalida>
+          <precio>100 euros</precio>
+          <numeroPlazas>30</numeroPlazas>
+       </excursion>
+    </evento>
+
+    <evento id="2">
+        <excursion id="EX2">
+            <nombreexcursion>se feliz caminando </nombreexcursion>
+            <dificultad>facil</dificultad>
+            <Desnivel>plano</Desnivel>
+            <Distancia>8 km</Distancia>
+            <Tiempo>1 y 30 minutos</Tiempo>
+            <DiaExcursion>2 de Enero del 2024</DiaExcursion>
+            <LugarSalida>Areeta</LugarSalida>
+            <HoraSalida>9 am</HoraSalida>
+            <precio>50 euros</precio>
+            <numeroPlazas>20</numeroPlazas>
+        </excursion>
+    </evento>
+
+    <evento id="3">
+        <carrera id="CA1">
+            <nombrecarrera>Un regalo a la salud</nombrecarrera>
+            <fecha>8 de Enero del 2024</fecha>
+            <distancia>10 km</distancia>
+            <localidad>Bilbao</localidad>
+            <provincia>Vizcaya</provincia>
+            <enlace url ="https://www.facebook.com/?locale=es_ES"> Mas informacion</enlace>
+        </carrera>
+
+        <carrera id="CA2">
+            <nombrecarrera>Unete con solidaridad</nombrecarrera>
+            <fecha>1 de marzo del 2024</fecha>
+            <distancia>15 km</distancia>
+            <localidad>Bilbao</localidad>
+            <provincia>Vizcaya</provincia>
+            <enlace url="https://www.facebook.com/?locale=es_ES">Mas informacion</enlace>
+        </carrera>
+    </evento>
+
+    <evento id="4">
+        <asamblea id="AS1">
+            <lugar>Desde tu casa</lugar>
+            <tipodereunion>Online</tipodereunion>
+            <dia>10 de Enero del 2024</dia>
+            <hora>Normalmente es las 20:00</hora>
+            <temas>
+                <temauno>Estres</temauno>
+                <temados>Relajacion</temados>
+            </temas>
+        </asamblea>
+    </evento>
+</eventos>
