@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Ejemplo de crear un documento xml, tarea evaluativa-->
+
+<!DOCTYPE  ClubDeVoleibol>
+
+<!-- Raíz del documento -->
+<ClubDeVoleibol>
+    <!-- Sección de la tienda -->
+    <Tienda ubicacion="ubicación de la tienda">
+        <!-- Detalles del producto -->
+        <Producto id="CM">
+            <Nombre>Camiseta</Nombre>
+            <Codigo>4562448</Codigo>
+            <Foto>
+                <paginaweb>https://www.fcbarcelona.es/es/</paginaweb>
+            </Foto>
+            <Descripcion>Camisetas de equipo</Descripcion>
+            <Marca>Adidas</Marca>
+            <Precio>50 euros</Precio>
+            <!-- Comentarios del producto -->
+            <Comentarios>
+            <Comentario fecha="12/06/2023">Es un buen producto.</Comentario>
+            <Comentario fecha="15/06/2023">Me encanto.</Comentario>
+            </Comentarios>
+        </Producto>
+
+        <Producto id="ZP">
+            <Nombre>zapatos</Nombre>
+            <Codigo>4512668</Codigo>
+            <Foto>
+                <paginaweb>https://www.zara.com/es/</paginaweb>
+            </Foto>
+            <Descripcion>Zapatos de temporada</Descripcion>
+            <Marca>Zara</Marca>
+            <Precio>60 euros</Precio>
+            <!-- Comentarios del producto -->
+            <Comentarios>
+            <Comentario fecha="23/05/2023">son bonitos</Comentario>
+            <Comentario fecha="25/05/2023">son practicos</Comentario>
+            </Comentarios>
+        </Producto>
+
+        <!-- Añade más productos según sea necesario -->
+    </Tienda>
+
+    <!-- Sección de equipos -->
+    <Equipos>
+        <Equipo>
+            <Nombre>FC Barcelona</Nombre>
+            <Categoria>Primera division de España</Categoria>
+            <!-- Detalles del entrenador -->
+            <Entrenador url="https://es.wikipedia.org/wiki/Xavi_Hern%C3%A1ndez">Xavi Hernandez</Entrenador>
+            <!-- Detalles de los jugadores -->
+            <Jugadores>
+            <Jugador numero="21" titular="si">
+                <Nombre>Frenkie de Jong</Nombre>
+                <Nacionalidad>Paises Bajos</Nacionalidad>
+                <Posicion>Centrocampista</Posicion>
+            </Jugador>
+            <Jugador numero="9" titular="si">
+                <Nombre>Robert Lewandowski</Nombre>
+                <Nacionalidad>Polonia</Nacionalidad>
+                <Posicion>Atacante</Posicion>
+            </Jugador>
+            </Jugadores>
+            <!-- Añade más jugadores según sea necesario -->
+        </Equipo>
+        <Equipo>
+            <Nombre>Real Madrid</Nombre>
+            <Categoria>Primera División RFEF</Categoria>
+            <!-- Detalles del entrenador -->
+            <Entrenador url="https://es.wikipedia.org/wiki/Carlo_Ancelotti">Carlo Ancelotti</Entrenador>
+            <!-- Detalles de los jugadores -->
+            <Jugadores>
+            <Jugador numero="4" titular="si">
+                <Nombre>David Alaba</Nombre>
+                <Nacionalidad>Austria</Nacionalidad>
+                <Posicion>Defensa</Posicion>
+            </Jugador>
+            </Jugadores>
+            <!-- Añade más jugadores según sea necesario -->
+        </Equipo>
+        <!-- Añade más equipos según sea necesario --> 
+    </Equipos>
+
+    <!-- Sección de partidos -->
+    <Partidos>
+        <Partido>
+            <Lugar>
+                <Ciudad>ciudad del partido</Ciudad>
+                <Estadio>nombre del estadio</Estadio>
+            </Lugar>
+            <Fecha>fecha del partido</Fecha>
+            <EquiposParticipantes>
+                <Nombre id="Id del equipo participante">equipos participantes</Nombre>
+            </EquiposParticipantes>
+            <Resultado>resultado del partido</Resultado>
+            <!-- Detalles del árbitro -->
+            <Arbitros>
+            <Arbitro Id="ID para idetinficar el arbitro"  categoria="categoría del árbitro">
+                <Nombre>nombre del árbitro</Nombre>
+                <Nacionalidad>nacionalidad del árbitro</Nacionalidad>
+            </Arbitro>
+            </Arbitros>
+        </Partido>
+        <!-- Añade más partidos según sea necesario -->
+    </Partidos>
+</ClubDeVoleibol>
